@@ -102,11 +102,9 @@
       "entity": "Macro",
       "system": "cyberpunkred",
       "module": "cpunk-lifepaths"
-    },
-  
+    }
   ],
   "url": "https://github.com/hellogriffalo/cpunk-lifepaths",
-  "minimumCoreVersion": "0.5.2", 
   "manifest": "https://raw.githubusercontent.com/hellogriffalo/cpunk-lifepaths/master/module.json",
   "download": "https://github.com/hellogriffalo/cpunk-lifepaths/archive/main.zip" 
 }
