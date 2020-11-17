@@ -105,6 +105,6 @@
     }
   ],
   "url": "https://github.com/hellogriffalo/cpunk-lifepaths",
-  "manifest": "https://raw.githubusercontent.com/hellogriffalo/cpunk-lifepaths/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/hellogriffalo/cpunk-lifepaths/main/module.json",
   "download": "https://github.com/hellogriffalo/cpunk-lifepaths/archive/main.zip" 
 }
