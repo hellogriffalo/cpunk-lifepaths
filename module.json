@@ -1,63 +1,112 @@
 {   
-   "name": "divine-careers",   
-   "title": "Divine Careers",   
-   "description": "Adds fan-made specialisations for Cleric careers, new items, rules and a Miracle",   
+   "name": "cpunk-lifepaths",   
+   "title": "Cyberpunk RED Lifepaths",   
+   "description": "Adds macros and tables that replicate the Lifepath tables in the Cyberpunk RED Corebook",   
    "author": "Matt Griffiths",
    "version": "1.0.0",
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion":"0.5.5",
    "packs": [
     {
-      "name": "Divine-Careers",
-      "label": "Divine Careers",
-      "path": "packs/divine-careers.db",
-      "entity": "Item",
-      "system": "wfrp4e",
-      "module": "divine-careers"
+      "name": "exec-lifepath",
+      "label": "Exec Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
     },
     {
-  "name": "Talents",
-      "label": "Divine Careers Talents",
-      "path": "packs/talents.db",
-      "entity": "Item",
-      "system": "wfrp4e",
-      "module": "divine-careers"
+      "name": "fixer-lifepath",
+      "label": "Fixer Lifepath",
+      "path": "packs/fixer-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
     },
     {
-  "name": "Trappings",
-      "label": "Divine Careers Trappings",
-      "path": "packs/trappings.db",
-      "entity": "Item",
-      "system": "wfrp4e",
-      "module": "divine-careers"
+      "name": "lawman-lifepath",
+      "label": "Lawman Lifepath",
+      "path": "packs/lawman-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
     },
     {
-  "name": "Skills",
-      "label": "Divine Careers Skills",
-      "path": "packs/skills.db",
-      "entity": "Item",
-      "system": "wfrp4e",
-      "module": "divine-careers"
+      "name": "media-lifepath",
+      "label": "Media Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
     },
     {
-  "name": "Miracles",
-      "label": "Divine Careers Miracles",
-      "path": "packs/miracles.db",
-      "entity": "Item",
-      "system": "wfrp4e",
-      "module": "divine-careers"
+      "name": "medtech-lifepath",
+      "label": "Medtech Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
     },
     {
-      "name": "actors",
-      "label": "Divine Careers Actors",
-      "path": "packs/actors.db",
-      "entity": "Actor",
-      "system": "wfrp4e",
-      "module": "divine-careers"
-    }
+      "name": "netrunner-lifepath",
+      "label": "Netrunner Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "nomad-lifepath",
+      "label": "Nomad Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "rockerboy-lifepath",
+      "label": "Rockerboy Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "solo-lifepath",
+      "label": "Solo Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "tech-lifepath",
+      "label": "Tech Lifepath",
+      "path": "packs/exec-lifepath.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "lifepath-tables",
+      "label": "Lifepath Tables",
+      "path": "packs/lifepath-tables.db",
+      "entity": "RollTable",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+    {
+      "name": "lifepath-macros",
+      "label": "Lifepath Macros",
+      "path": "packs/lifepath-macros.db",
+      "entity": "Macro",
+      "system": "cyberpunkred",
+      "module": "cpunk-lifepaths"
+    },
+  
   ],
-  "url": "https://github.com/hellogriffalo/divine-careers",
+  "url": "https://github.com/hellogriffalo/cpunk-lifepaths",
   "minimumCoreVersion": "0.5.2", 
-  "manifest": "https://raw.githubusercontent.com/hellogriffalo/divine-careers/master/module.json",
-  "download": "https://github.com/hellogriffalo/divine-careers/blob/master/divine-careers.zip" 
+  "manifest": "https://raw.githubusercontent.com/hellogriffalo/cpunk-lifepaths/master/module.json",
+  "download": "https://github.com/hellogriffalo/cpunk-lifepaths/archive/main.zip" 
 }
